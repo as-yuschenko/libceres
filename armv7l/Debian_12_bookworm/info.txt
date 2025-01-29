@@ -1,0 +1,20 @@
+file libceres.1.so
+	libceres.1.so: ELF 32-bit LSB shared object, ARM, EABI5 version 1 (SYSV), dynamically linked, BuildID[sha1]=936273f849166902602655825d842a9e9df17f86, not stripped
+	
+ldd -v libceres.1.so
+        linux-vdso.so.1 (0xbeb84000)
+        libgcc_s.so.1 => /lib/arm-linux-gnueabihf/libgcc_s.so.1 (0xb6f20000)
+        libc.so.6 => /lib/arm-linux-gnueabihf/libc.so.6 (0xb6e09000)
+        /lib/ld-linux-armhf.so.3 (0xb6f6c000)
+
+        Version information:
+        ./libceres.1.so:
+                libc.so.6 (GLIBC_2.4) => /lib/arm-linux-gnueabihf/libc.so.6
+                libgcc_s.so.1 (GCC_3.5) => /lib/arm-linux-gnueabihf/libgcc_s.so.1
+        /lib/arm-linux-gnueabihf/libgcc_s.so.1:
+                libc.so.6 (GLIBC_2.34) => /lib/arm-linux-gnueabihf/libc.so.6
+                libc.so.6 (GLIBC_2.4) => /lib/arm-linux-gnueabihf/libc.so.6
+        /lib/arm-linux-gnueabihf/libc.so.6:
+                ld-linux-armhf.so.3 (GLIBC_2.35) => /lib/ld-linux-armhf.so.3
+                ld-linux-armhf.so.3 (GLIBC_2.4) => /lib/ld-linux-armhf.so.3
+                ld-linux-armhf.so.3 (GLIBC_PRIVATE) => /lib/ld-linux-armhf.so.3
