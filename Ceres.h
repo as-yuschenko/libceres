@@ -233,7 +233,7 @@ char ceres_r_access_grant_noname(unsigned char addr, unsigned char reader_num);/
 
 void ceres_q_access_deny(unsigned char addr, unsigned char reader_num);//do nothing in this version
 
-char ceres_r_access_deny(unsigned char addr/*, unsigned char reader_num*/);//do nothing in this version
+char ceres_r_access_deny(unsigned char addr);//do nothing in this version
 
 
 /*--------ADC-------*/
@@ -252,7 +252,7 @@ void ceres_extract_adc(long int* dest);//do nothing in this version
 const char* ceres_name_dev(unsigned char type);
 const char* ceres_name_event(unsigned char event);
 const char* ceres_name_event_trnslt(unsigned char event);
-
+unsigned char ceres_event_priority(unsigned char event);
 
 /*--------ABOUT-------*/
 void ceres_about(char* buff);
