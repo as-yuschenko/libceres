@@ -1,11 +1,11 @@
 file libceres_light.1.so
-	libceres_light.1.so: ELF 32-bit LSB shared object, ARM, EABI5 version 1 (SYSV), dynamically linked, BuildID[sha1]=cf573bbad5ca0f7e84a94fdee8ee42eb46c7770e, not stripped
+	libceres_light.1.so: ELF 32-bit LSB shared object, ARM, EABI5 version 1 (SYSV), dynamically linked, BuildID[sha1]=f994ef5c1175d771df78a1a31b83caf9af4a1a09, not stripped
 	
 ldd -v libceres_light.1.so
-        linux-vdso.so.1 (0xbec4b000)
+        linux-vdso.so.1 (0xbefd8000)
         libgcc_s.so.1 => /lib/arm-linux-gnueabihf/libgcc_s.so.1 (0xb6f10000)
         libc.so.6 => /lib/arm-linux-gnueabihf/libc.so.6 (0xb6df9000)
-        /lib/ld-linux-armhf.so.3 (0xb6f5c000)
+        /lib/ld-linux-armhf.so.3 (0xb6f5a000)
 
         Version information:
         ./libceres_light.1.so:
@@ -20,4 +20,4 @@ ldd -v libceres_light.1.so
                 ld-linux-armhf.so.3 (GLIBC_PRIVATE) => /lib/ld-linux-armhf.so.3
 
 SHA1
-	d2a295ba6e25eb4d683aa8c4db9915d92f9677cd  libceres_light.1.so
+	eb0158e9da18555c16075d454e2553c95acb2018  libceres_light.1.so

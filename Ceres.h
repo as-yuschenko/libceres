@@ -71,15 +71,6 @@ mailto:a.s.yuschenko@gmail.com
 #define CERES_ET_TECH                       128
 
 
-
-extern const unsigned char CERES_EVENT_TYPE_ARR[256];
-extern const unsigned char CERES_EVENT_PRIORITY_ARR[256];
-extern const unsigned char CERES_DEV_TYPE[CERES_SIZE_DEV_NAMES_ARR][3];
-
-extern const char*      CERES_DEV_NAMES[CERES_SIZE_DEV_NAMES_ARR];
-extern const char*      CERES_EVENT_DESC_ARR[256];
-extern const char*      CERES_EVENT_DESC_TRNSLT_ARR[256];
-
 struct ceres_st_states
 {
     unsigned char addr;
