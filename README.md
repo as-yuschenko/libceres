@@ -238,7 +238,7 @@ void ceres_q_state_ext(unsigned char addr, unsigned char zone);
 * -1 - ошибка принятых данных.
 */
 char ceres_r_state_ext(unsigned char addr, unsigned char zone);
-
+```
 
 ### Текущая программа управления реле (выхода). **[FULL]**
 
@@ -338,7 +338,7 @@ char ceres_r_drop_alarm(unsigned char addr);
 
 ### Управление шлейфами.
 
-**Взятие шлейфа на охрану**
+**Взятие шлейфа на охрану.**
 
 ```cpp
 /** Запрос на взятие шлейфа под охрану.
@@ -358,7 +358,7 @@ void ceres_q_zone_arm(unsigned char addr, unsigned char zone);
 char ceres_r_zone_arm(unsigned char addr, unsigned char zone);
 ```
 
-**Снятие шлейфа с охраны**
+**Снятие шлейфа с охраны.**
 
 ```cpp
 /** Запрос на снятие шлейфа с охраны.
@@ -378,7 +378,7 @@ void ceres_q_zone_disarm(unsigned char addr, unsigned char zone);
 char ceres_r_zone_disarm(unsigned char addr, unsigned char zone);
 ```
 
-**Перевод пожарного шлейфа в режим тестирования** **[FULL]**
+**Перевод пожарного шлейфа в режим тестирования.** **[FULL]**
 
 ```cpp
 /** Запрос на перевод пожарного шлейфа в режим тестирования.
@@ -399,7 +399,7 @@ void ceres_q_zone_firetest(unsigned char addr, unsigned char zone, unsigned shor
 char ceres_r_zone_firetest(unsigned char addr, unsigned char zone);
 ```
 
-**Отключение контроля шлейфа (для пожарных шлейфов без права снятия)** **[FULL]**
+**Отключение контроля шлейфа (для пожарных шлейфов без права снятия).** **[FULL]**
 
 ```cpp
 /** Запрос на отключение контроля шлейфа.
@@ -419,7 +419,7 @@ void ceres_q_zone_disable(unsigned char addr, unsigned char zone);
 char ceres_r_zone_disable(unsigned char addr, unsigned char zone);
 ```
 
-**Включение контроля шлейфа (для пожарных шлейфов без права снятия)** **[FULL]**
+**Включение контроля шлейфа (для пожарных шлейфов без права снятия).** **[FULL]**
 
 ```cpp
 /** Запрос на включение контроля шлейфа.
